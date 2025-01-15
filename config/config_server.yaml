@@ -1,0 +1,212 @@
+CML_config:
+  loss_function: focal_loss
+  optimiser: sgd
+  early_stopping: True
+  global_model:
+    explainable: False
+    type: AlexNet
+  epochs: 100
+learning_config:
+  modality: single
+  C: 1
+  E: 10
+  K: 6
+  number_of_adversaries: 2
+  uncertainty_evaluation: True
+  aggregation:
+    FedProx:
+      mu: 0.1
+    PerFedAvg:
+      alpha: 0.01
+      beta: 0.001
+      hessian_free: False
+    FedDyn:
+      alpha: 0.1
+    Ditto:
+      mu: 0.9
+      plocal_steps: 1
+    pFedME:
+      mu: 0.1
+      labda: 0.001
+      plocal_steps: 1
+  aggregator: Ditto
+  available_aggregations:
+  - FedProx
+  - PerFedAvg
+  - pFedME
+  - FedDyn
+  - Ditto
+  - FedAvg
+  - Krum
+  early_stopping: False
+  enganging_criteria: 1
+  epochs: 1
+  global_model:
+    explainable: False
+    path1: src/federated_learning/models/global_model/model.pth
+    path2: src/federated_learning/models/global_model/model_explainable.pth
+    type: AlexNet
+  rounds: 100
+collection:
+  non_iid:
+    type: dirchlet
+    available:
+      - pathological
+      - dirichlet
+    alpha: 0.1
+    imbalanced_ratio: 0.25
+  datasets:
+    CIFAR10:
+      channels: 3
+      classes: 10
+      iid: False
+      testing_batch_size: 80
+      training_batch_size: 40
+      val_size: 0.15
+    CIFAR100:
+      channels: 3
+      classes: 100
+      iid: False
+      testing_batch_size: 80
+      training_batch_size: 40
+      val_size: 0.15
+    MNIST:
+      channels: 1
+      classes: 10
+      iid: False
+      testing_batch_size: 80
+      training_batch_size: 40
+      val_size: 0.15
+    SVHN:
+      channels: 3
+      classes: 100
+      iid: False
+      testing_batch_size: 80
+      training_batch_size: 40
+      val_size: 0.15
+    FashionMNIST:
+      channels: 1
+      classes: 100
+      iid: False
+      testing_batch_size: 80
+      training_batch_size: 40
+      val_size: 0.15
+    DomainNet:
+      channels: 3
+      classes: 345
+      iid: True
+      testing_batch_size: 160
+      training_batch_size: 80
+      val_size: 0.15
+    ISIC2019:
+      channels: 3
+      classes: 100
+      iid: False
+      testing_batch_size: 80
+      training_batch_size: 40
+      val_size: 0.15
+  path:
+    testing: ./dataset/test
+    training: ./dataset/train
+  selection: CIFAR10
+attack:
+  engage: True
+  type: single
+  layer_of_interest: 1
+  target_confidence: 0.25
+  num_of_neurons: 5
+  reference_point:
+    kl_div : 0.25
+    mutual_info : 0.25
+  type_of_optimisation: least_squares
+  available_attacks:
+    - least_squares
+    - bayesian_optimisation
+    - rl
+    - multi_obj_bo
+  rl:
+    time_steps: 128
+    learning_rate: 0.0004
+    anneal_lr: True
+    gamma: 0.99
+    gae_lambda: 0.9
+    num_minibatches: 4
+    update_epochs: 1
+    norm_adv: True
+    clip_coef: 0.2
+    clip_vloss: True
+    ent_coef: 0.01
+    vf_coef: 0.4
+    max_grad_norm: 0.25
+    target_kl: 0
+  least_squares:
+    number_of_explorations: 2
+    gaussian_process: True
+    continue: True
+  bayesian_optimisation:
+    initial_dataset: 5
+    type: single
+    reference_point:
+      kl_div : 0.25
+      mutual_info : 0.25
+  multi_obj_bo:
+    objectives:
+      - kl_div
+      - mutual_info
+  engagement_criteria: 
+    loss: 1.5
+    epoch: 1
+  bounds: 0.25
+  target_class: 5
+  initial_dataset: 5
+  use_logits: False
+  uncertainty:
+    uncertainty_bounds: 0.5
+    type_of: logairthmic
+    available:
+      - stepping
+      - logarithmic
+  filtering:
+    filtered_output: True
+    type_of_filter: accuracy
+    filtered_samples: 50
+    confidence: 0.5
+  available_data:
+    type: min
+  objective: kl_div
+  available_objective: 
+    - kl_div
+    - mutual_info
+    - wasserstein
+    - js_div
+  objectives:
+    kl_div_target: 0.0 
+    mutual_info_target: 0.25
+    wasserstein_target: 0.0
+  best_features: random
+  layer_of_interest: 1
+  modality: image
+configuration: FL
+available_models:
+  - MLP_MNIST 
+  - MLP_CIFAR10
+  - MLP_CIFAR100
+  - AlexNet
+  - Resnet18
+  - Resnet34
+  - Resnet50
+  - Resnet101
+  - Resnet152
+  - SwinTransformer
+  - VisionTransformer
+  - VGG11
+  - VGG13
+  - VGG16
+  - VGG19
+  - MobileNet
+device: cuda
+evaluation_attack: PGD
+experiment: 2
+multiprocessing: False
+backend: pytorch
+name: FL_FedAvg_AlexNet_CIFAR10

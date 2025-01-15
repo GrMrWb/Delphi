@@ -1,0 +1,601 @@
+clients:
+  1:
+    adversary: true
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  2:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  3:
+    adversary: true
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  4:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  5:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  6:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  7:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  8:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  9:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  10:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  11:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  12:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  13:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  14:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  15:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  16:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  17:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  18:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  19:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  20:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  21:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  22:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  23:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  24:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  25:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  26:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  27:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  28:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  29:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  30:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  31:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  32:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  33:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  34:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  35:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  36:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  37:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  38:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  39:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  40:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  41:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  42:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  43:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  44:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  45:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  46:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  47:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  48:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  49:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  50:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  51:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  52:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  53:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  54:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  55:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  56:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  57:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  58:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  59:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  60:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  61:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  62:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  63:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  64:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  65:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  66:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  67:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  68:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  69:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  70:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  71:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  72:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  73:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  74:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  75:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  76:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  77:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  78:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  79:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  80:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  81:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  82:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  83:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  84:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  85:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  86:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  87:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  88:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  89:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  90:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  91:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  92:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  93:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  94:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  95:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  96:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  97:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  98:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  99:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
+  100:
+    adversary: false
+    early_stopping: false
+    epochs: 2
+    loss: crossentropy
+    optimizer: sgd
