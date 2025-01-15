@@ -146,10 +146,11 @@ Project Link: [https://github.com/username/project-name](https://github.com/user
 In case you have used this code, please give us some credit and cite the following paper:
 ```
 @Article{Aristodemou2024TIFS,
-  author  = Aristodemou, Marios and Liu, Xiaolan and Wang, Yuan and Konstantinos G., Kyriakopoulos and Lambotharan, Sangarapillai and Wei, Qingsong},
+  author  = {Aristodemou, Marios and Liu, Xiaolan and Wang, Yuan and Konstantinos G., Kyriakopoulos and Lambotharan, Sangarapillai and Wei, Qingsong},
   journal = {IEEE Transactions on Informations Forensics and Security},
   title   = {Maximising Uncertainty for Federated Learning via Baeysian Optimisation-based Model Poisoning},
-  year    = {Forthcoming},
+  year    = {2025},
+  doi     = {10.1109/TIFS.2025.3531143},
 }
 ```
 
